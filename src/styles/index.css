@@ -85,6 +85,10 @@ p {
   flex-direction: column;
 }
 
+.align-right {
+  text-align: right;
+}
+
 a {
   color: #5a8c9c;
   text-underline-offset: 0.25em;
