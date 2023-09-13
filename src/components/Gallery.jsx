@@ -25,7 +25,12 @@ function Gallery(props) {
           onMouseEnter={(e) => onHover(e, item.title)}
           onMouseLeave={(e) => onHoverOver(e)}
         >
-          <Link to={item.to}>
+          <Link
+            to={item.to}
+            onClick={() => {
+              window.scroll(0, 0);
+            }}
+          >
             {hover && hoverText === item.title && (
               <div className="gallery__hover-text">
                 <h3>{item.title}</h3>

@@ -29,7 +29,7 @@ function NavBar(props) {
       <Link
         to={`/${p}`}
         key={p}
-        className={pathname === `/${p}` ? "active" : undefined}
+        className={pathname.split("/")[1] === p ? "active" : undefined}
         onClick={() => {
           window.scroll(0, 0);
         }}
