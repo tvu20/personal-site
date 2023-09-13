@@ -10,7 +10,7 @@
   aspect-ratio: 1/ 1;
   display: flex;
   align-items: center;
-  /* padding: 5%; */
+  margin-bottom: 5px;
   background-color: transparent;
   color: #fff;
 }
@@ -43,7 +43,8 @@
 .gallery__item a {
   color: white;
   font-size: 20px;
-  text-transform: lowercase;
+  text-align: center;
+  /* text-transform: lowercase; */
 }
 
 @keyframes fadeIn {
