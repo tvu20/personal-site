@@ -43,6 +43,19 @@ p {
   line-height: 1.5;
 }
 
+.fade-in-wrapper {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .textbox {
   /* border: 1px solid black; */
   display: flex;

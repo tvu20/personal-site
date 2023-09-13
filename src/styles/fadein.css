@@ -1,0 +1,17 @@
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(-3vh);
+  visibility: hidden;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  will-change: opacity, visibility;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  /* display: flex; */
+  /* justify-content: center; */
+}

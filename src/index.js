@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import router from "./routes";
-import "./index.css";
+import "./styles/index.css";
+import "./styles/fadein.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -30,6 +30,9 @@ function NavBar(props) {
         to={`/${p}`}
         key={p}
         className={pathname === `/${p}` ? "active" : undefined}
+        onClick={() => {
+          window.scroll(0, 0);
+        }}
       >
         {p === "" ? "home" : p}
       </Link>

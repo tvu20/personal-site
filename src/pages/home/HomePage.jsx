@@ -6,7 +6,7 @@ import Gallery from "../../components/Gallery";
 
 function Home() {
   return (
-    <>
+    <div className="fade-in-wrapper">
       <div className="homepage__banner">
         <div className="homepage__banner--text">
           <h5>hello world, i'm</h5>
@@ -40,7 +40,7 @@ function Home() {
       </div>
       <Gallery items={items} />
       <div className="spacer"></div>
-    </>
+    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
 
-function Wrapper(props) {
+function Wrapper() {
   return (
     <>
       <NavBar />
