@@ -27,3 +27,8 @@
   text-transform: uppercase;
   margin: 0;
 }
+
+.homepage__intro p {
+  max-width: 800px;
+  text-align: center;
+}

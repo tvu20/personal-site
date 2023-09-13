@@ -13,7 +13,49 @@ code {
     monospace;
 }
 
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 0 0 30px;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
 .textbox {
-  border: 1px solid black;
-  height: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 180px 70px;
+}
+
+.spacer {
+  height: 150px;
+}
+
+.vertical-align {
+  flex-direction: column;
+}
+
+a {
+  color: #5a8c9c;
+  text-underline-offset: 0.25em;
+  /* text-transform: none;
+  padding: 0; */
+  /* color: ; */
 }

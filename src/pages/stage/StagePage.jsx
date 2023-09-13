@@ -1,7 +1,7 @@
 import React from "react";
 
 function Stage() {
-  return <div>Stage</div>;
+  return <div className="textbox">Stage</div>;
 }
 
 export default Stage;

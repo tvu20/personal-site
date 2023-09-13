@@ -2,7 +2,7 @@
   background-color: white;
   width: 100%;
   position: fixed;
-  height: 75px;
+  height: 85px;
   top: 0;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   background-color: transparent;
   width: 100%;
   position: fixed;
-  height: 75px;
+  height: 85px;
   top: 0;
   display: flex;
   justify-content: center;
@@ -32,10 +32,11 @@
   font-family: "Inter", sans-serif;
 }
 
-a {
+.navbar__background a,
+.navbar__background--alt a {
   padding: 0 30px 0;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -50,7 +51,7 @@ a {
 
 .navbar__background--alt a.active {
   color: white;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .navbar__background a.active {

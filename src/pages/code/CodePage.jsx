@@ -1,7 +1,7 @@
 import React from "react";
 
 function Code() {
-  return <div>Code</div>;
+  return <div className="textbox">Code</div>;
 }
 
 export default Code;
