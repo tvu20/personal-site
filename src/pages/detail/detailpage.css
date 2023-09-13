@@ -1,0 +1,22 @@
+.detail__column {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.detail__column--left {
+  padding-right: 50px;
+}
+
+.detail__column h3 {
+  color: #5a8c9c;
+}
+
+.detail__column p,
+.detail__column h4 {
+  line-height: 1.25;
+}
+
+.detail__column--right img {
+  width: 100%;
+  margin-bottom: 15px;
+}

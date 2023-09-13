@@ -71,6 +71,12 @@ p {
   padding: 180px 70px 100px;
 }
 
+.twocolumns {
+  display: flex;
+  justify-content: space-between;
+  padding: 180px 70px 80px;
+}
+
 .spacer {
   height: 100px;
 }
