@@ -2,7 +2,9 @@
   margin: 0 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2%;
+  /* gap: 2%; */
+  grid-column-gap: 2%;
+  grid-row-gap: 20px;
 }
 
 .gallery__item {
@@ -10,7 +12,7 @@
   aspect-ratio: 1/ 1;
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   background-color: transparent;
   color: #fff;
 }
@@ -40,11 +42,11 @@
   animation: fadeIn 0.6s;
 }
 
-.gallery__item a {
-  color: white;
+.gallery__item h3 {
   font-size: 20px;
+  color: white;
   text-align: center;
-  /* text-transform: lowercase; */
+  padding: 20px;
 }
 
 @keyframes fadeIn {

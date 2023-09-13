@@ -31,7 +31,7 @@ function Gallery(props) {
                 <h3>{item.title}</h3>
               </div>
             )}
-            <img src={item.imgSrc} alt={item.title} />
+            <img src={item.bannerImg} alt={item.title} />
           </Link>
         </div>
       );

@@ -42,47 +42,15 @@ const router = createBrowserRouter([
         element: <Misc />,
       },
       {
-        path: "project/:projectId",
-        element: <Detail />,
+        path: "code/:projectId",
+        element: <Detail type="code" />,
+      },
+      {
+        path: "art/:projectId",
+        element: <Detail type="art" />,
       },
     ],
   },
 ]);
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: (
-//       <Wrapper>
-//         <Home />
-//       </Wrapper>
-//     ),
-//     errorElement: <ErrorPage />,
-//   },
-//   {
-//     path: "/about",
-//     element: <About />,
-//   },
-//   {
-//     path: "/code",
-//     element: <Code />,
-//   },
-//   {
-//     path: "/art",
-//     element: <Art />,
-//   },
-//   {
-//     path: "/stage",
-//     element: <Stage />,
-//   },
-//   {
-//     path: "/misc",
-//     element: <Misc />,
-//   },
-//   {
-//     path: "project/:projectId",
-//     element: <Detail />,
-//   },
-// ]);
 
 export default router;
