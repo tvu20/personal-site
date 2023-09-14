@@ -45,3 +45,20 @@
 .stage__begin-list {
   margin-bottom: 5px !important;
 }
+
+@media (max-width: 750px) {
+  .stage__column-with-img {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .stage__column-with-img img {
+    width: 100%;
+    max-width: none;
+  }
+  .stage__column h3 {
+    margin-bottom: 20px;
+    color: #5a8c9c;
+  }
+}

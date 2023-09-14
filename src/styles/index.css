@@ -97,6 +97,13 @@ a {
   /* color: ; */
 }
 
+@media (max-width: 750px) {
+  .twocolumns {
+    padding: 180px 30px 80px;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 600px) {
   /* … */
   .textbox {

@@ -1,9 +1,11 @@
 import React from "react";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import FadeInSection from "../../components/FadeInSection";
 
 import "./stagepage.css";
 
 function Stage() {
+  const { width } = useWindowDimensions();
   return (
     <>
       <FadeInSection>
@@ -14,7 +16,7 @@ function Stage() {
       </FadeInSection>
 
       <div className="twocolumns stage__container">
-        <div className="stage__column stage__column--left">
+        <div className="stage__column stage__column--left stage__column-with-img">
           <FadeInSection delay={100}>
             <img src={require("../../images/music.jpg")} alt="singing" />
           </FadeInSection>
@@ -77,6 +79,11 @@ function Stage() {
       </div>
       <div className="spacer"></div>
       <div className="twocolumns stage__container">
+        {width < 750 && (
+          <div className="stage__column stage__column--right align-right stage__column-with-img">
+            <img src={require("../../images/theater.jpg")} alt="singing" />
+          </div>
+        )}
         <div className="stage__column stage__column--left">
           <h3>theater</h3>
           <h4 style={{ fontWeight: 500, fontSize: "20px" }}>Acting Credits</h4>
@@ -144,9 +151,11 @@ function Stage() {
           {/* <img src={require("../../images/music.jpg")} alt="singing" /> */}
         </div>
 
-        <div className="stage__column stage__column--right align-right">
-          <img src={require("../../images/theater.jpg")} alt="singing" />
-        </div>
+        {width >= 750 && (
+          <div className="stage__column stage__column--right align-right stage__column-with-img">
+            <img src={require("../../images/theater.jpg")} alt="singing" />
+          </div>
+        )}
       </div>
     </>
   );
