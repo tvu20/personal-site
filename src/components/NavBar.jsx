@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import FadeInSection from "./FadeInSection";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import "./navbar.css";
 
@@ -46,7 +47,7 @@ function NavBar(props) {
     if (!altHeader || pathname !== "/") {
       return (
         <>
-          {!showFullscreenMenu && <h4>giao vu dinh</h4>}
+          <h4 style={{ zIndex: 3 }}>giao vu dinh</h4>
           <input
             id="burger"
             type="checkbox"
@@ -87,7 +88,15 @@ function NavBar(props) {
   };
 
   const fullScreenMobileMenu = () => {
-    return <nav className="navbar__fullscreen">{createFullscreenLinks()}</nav>;
+    return (
+      <nav
+        className={`navbar__fullscreen ${!showFullscreenMenu ? "hide" : ""}`}
+      >
+        {showFullscreenMenu && (
+          <FadeInSection delay={400}>{createFullscreenLinks()}</FadeInSection>
+        )}
+      </nav>
+    );
   };
 
   return (
@@ -102,7 +111,7 @@ function NavBar(props) {
         </div>
       ) : (
         <>
-          {showFullscreenMenu && fullScreenMobileMenu()}
+          {fullScreenMobileMenu()}
           <div
             className={`navbar-mobile navbar__background${
               pathname === "/" && altHeader ? "--alt" : ""

@@ -1,6 +1,6 @@
 .navbar__background {
   background-color: white;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   height: 85px;
   top: 0;
@@ -91,6 +91,13 @@
   flex-direction: column;
   justify-content: flex-start;
   padding-top: 180px;
+  transition: top 0.5s;
+  top: 0;
+}
+
+.navbar__fullscreen.hide {
+  top: -150vh;
+  pointer-events: none;
 }
 
 .remove-bottom-border {
@@ -101,11 +108,11 @@
   margin: 0 30px;
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
+  text-align: center;
 }
 
 .navbar__fullscreen a {
-  padding: 0 30px 0;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 25px;
   text-decoration: none;
   text-transform: uppercase;

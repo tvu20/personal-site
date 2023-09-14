@@ -23,7 +23,7 @@
 
 @media (max-width: 750px) {
   .detail__column--left {
-    padding-right: 50px;
+    padding-right: 0;
     margin-bottom: 50px;
   }
 }
