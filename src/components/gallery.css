@@ -57,3 +57,23 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 800px) {
+  .gallery__container {
+    margin: 0 50px;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 2%; */
+    grid-column-gap: 3%;
+    grid-row-gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery__container {
+    margin: 0 30px;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 2%; */
+    grid-column-gap: 3%;
+    grid-row-gap: 20px;
+  }
+}

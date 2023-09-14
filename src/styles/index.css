@@ -96,3 +96,10 @@ a {
   padding: 0; */
   /* color: ; */
 }
+
+@media (max-width: 600px) {
+  /* … */
+  .textbox {
+    padding: 140px 30px 120px;
+  }
+}

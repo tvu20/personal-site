@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import useWindowDimensions from "../hooks/useWindowDimensions";
 import "./navbar.css";
 
 function NavBar(props) {
   const { pathname } = useLocation();
   const [altHeader, setAltHeader] = useState(true);
+  const { width } = useWindowDimensions();
 
-  const pages = ["", "about", "code", "art", "stage", "misc"];
+  const pages = ["", "about", "code", "art", "stage"];
 
   const listenScrollEvent = (event) =>
     window.scrollY > window.innerHeight - 100
@@ -39,15 +41,40 @@ function NavBar(props) {
     ));
   };
 
+  const mobileMenu = () => {
+    if (!altHeader || pathname !== "/") {
+      return (
+        <>
+          <h4>giao vu dinh</h4>
+          <img
+            className="navbar__burger-menu"
+            src={require("../images/burger.png")}
+            alt="menu"
+          />
+        </>
+      );
+    }
+  };
+
   return (
     <>
-      <div
-        className={`navbar__background${
-          pathname === "/" && altHeader ? "--alt" : ""
-        }`}
-      >
-        <div className="navbar__centered">{createLinks()}</div>
-      </div>
+      {width > 600 ? (
+        <div
+          className={`navbar__background${
+            pathname === "/" && altHeader ? "--alt" : ""
+          }`}
+        >
+          <div className="navbar__centered">{createLinks()}</div>
+        </div>
+      ) : (
+        <div
+          className={`navbar-mobile navbar__background${
+            pathname === "/" && altHeader ? "--alt" : ""
+          }`}
+        >
+          {mobileMenu()}
+        </div>
+      )}
     </>
   );
 }

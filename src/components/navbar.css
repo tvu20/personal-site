@@ -9,7 +9,9 @@
   align-items: flex-end;
   z-index: 10;
   transition: all ease 1s;
+  -webkit-transition: all ease 1s;
   transition-property: background-color, color;
+  will-change: background-color, color;
 }
 
 .navbar__background--alt {
@@ -23,7 +25,9 @@
   align-items: flex-end;
   z-index: 10;
   transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
   transition-property: background-color, color;
+  will-change: background-color, color;
 }
 
 .navbar__centered {
@@ -57,4 +61,20 @@
 .navbar__background a.active {
   color: #5a8c9c;
   font-weight: 800;
+}
+
+.navbar-mobile {
+  height: 80px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-mobile h4 {
+  margin-left: 30px;
+}
+
+.navbar__burger-menu {
+  width: 30px;
+  margin-right: 30px;
 }

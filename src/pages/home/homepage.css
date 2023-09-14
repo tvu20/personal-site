@@ -32,3 +32,16 @@
   max-width: 800px;
   text-align: center;
 }
+
+@media (max-width: 750px) {
+  .homepage__intro p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage__banner--text h1 {
+    font-size: 70px;
+    margin-top: 15px;
+  }
+}

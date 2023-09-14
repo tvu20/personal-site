@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import { items } from "./homepageItems";
 import "./homepage.css";
 import Gallery from "../../components/Gallery";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 function Home() {
+  const { width } = useWindowDimensions();
   return (
     <div className="fade-in-wrapper">
       <div className="homepage__banner">
         <div className="homepage__banner--text">
           <h5>hello world, i'm</h5>
-          <h1>giao vu dinh</h1>
+          <h1>giao {width < 600 ? <br /> : ""} vu dinh</h1>
         </div>
       </div>
       <div className="textbox vertical-align homepage__intro">
