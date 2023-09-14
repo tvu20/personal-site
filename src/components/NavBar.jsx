@@ -6,6 +6,7 @@ import "./navbar.css";
 function NavBar(props) {
   const { pathname } = useLocation();
   const [altHeader, setAltHeader] = useState(true);
+  const [showFullscreenMenu, setShowFullscreenMenu] = useState(false);
   const { width } = useWindowDimensions();
 
   const pages = ["", "about", "code", "art", "stage"];
@@ -45,15 +46,48 @@ function NavBar(props) {
     if (!altHeader || pathname !== "/") {
       return (
         <>
-          <h4>giao vu dinh</h4>
-          <img
-            className="navbar__burger-menu"
-            src={require("../images/burger.png")}
-            alt="menu"
+          {!showFullscreenMenu && <h4>giao vu dinh</h4>}
+          <input
+            id="burger"
+            type="checkbox"
+            className="checkboxInput"
+            checked={showFullscreenMenu}
+            onChange={() => setShowFullscreenMenu((prevState) => !prevState)}
           />
+          <label htmlFor="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
         </>
       );
     }
+  };
+
+  const createFullscreenLinks = () => {
+    return pages.map((p, i) => (
+      <div
+        key={p}
+        className={`navbar__fullscreen-link ${
+          i === pages.length - 1 ? "remove-bottom-border" : ""
+        }`}
+      >
+        <Link
+          to={`/${p}`}
+          className={pathname.split("/")[1] === p ? "active" : ""}
+          onClick={() => {
+            window.scroll(0, 0);
+            setShowFullscreenMenu((prevState) => !prevState);
+          }}
+        >
+          {p === "" ? "home" : p}
+        </Link>
+      </div>
+    ));
+  };
+
+  const fullScreenMobileMenu = () => {
+    return <nav className="navbar__fullscreen">{createFullscreenLinks()}</nav>;
   };
 
   return (
@@ -67,13 +101,16 @@ function NavBar(props) {
           <div className="navbar__centered">{createLinks()}</div>
         </div>
       ) : (
-        <div
-          className={`navbar-mobile navbar__background${
-            pathname === "/" && altHeader ? "--alt" : ""
-          }`}
-        >
-          {mobileMenu()}
-        </div>
+        <>
+          {showFullscreenMenu && fullScreenMobileMenu()}
+          <div
+            className={`navbar-mobile navbar__background${
+              pathname === "/" && altHeader ? "--alt" : ""
+            }`}
+          >
+            {mobileMenu()}
+          </div>
+        </>
       )}
     </>
   );
