@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
 import Wrapper from "./components/Wrapper";
 
@@ -11,7 +11,7 @@ import Misc from "./pages/misc/MiscPage";
 import Detail from "./pages/detail/DetailPage";
 import ErrorPage from "./pages/ErrorPage";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Wrapper />,
