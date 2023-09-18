@@ -66,7 +66,7 @@ p {
 
 .textbox-leftaligned {
   /* border: 1px solid black; */
-  padding: 180px 70px;
+  padding: 120px 70px;
 }
 
 .headerbox {
@@ -106,6 +106,10 @@ a {
   .twocolumns {
     padding: 180px 30px 80px;
     flex-direction: column;
+  }
+  .textbox-leftaligned {
+    /* border: 1px solid black; */
+    padding: 120px 30px;
   }
 }
 

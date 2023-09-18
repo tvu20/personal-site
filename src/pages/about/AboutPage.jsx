@@ -2,10 +2,19 @@ import React from "react";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import FadeInSection from "../../components/FadeInSection";
 
+import { skills } from "./skills";
+
 import "./aboutpage.css";
 
 function About() {
   const { width } = useWindowDimensions();
+
+  const listCategories = () => {
+    return skills.map((skill) => {
+      return <h5>{skill.category}</h5>;
+    });
+  };
+
   return (
     <>
       <div className="spacer" style={{ height: "200px" }}></div>
@@ -357,6 +366,29 @@ function About() {
           makerspaces, and design thinking as ways for students to deeply engage
           with otherwise mundane material.
         </p>
+      </div>
+      <div className="about__textbox textbox-leftaligned">
+        <h3>Skills</h3>
+        {/* <div className="about__skills-categories">{listCategories()}</div> */}
+        <h4>Languages</h4>
+        <p>
+          English (native) • Vietnamese (fluent) • Mandarin Chinese
+          (conversational)
+        </p>
+        <br />
+        <h4>Programming</h4>
+        <p>Java • Python • JavaScript • Typescript • C • Node.js/Express</p>
+        <br />
+        <h4>Web Development</h4>
+        <p>React.js • Node.js • Express • Flask • SQL • D3</p>
+        <br />
+        <h4>Design</h4>
+        <p>
+          HTML • CSS • Figma • Bootstrap • Photoshop • Illustrator • InDesign
+        </p>
+        <br />
+        <h4>Miscellaneous</h4>
+        <p>Git • Linux • MS Office Suite • NumPy • LaTeX</p>
       </div>
     </>
   );
