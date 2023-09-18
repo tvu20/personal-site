@@ -2,18 +2,18 @@ import React from "react";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import FadeInSection from "../../components/FadeInSection";
 
-import { skills } from "./skills";
+// import { skills } from "./skills";
 
 import "./aboutpage.css";
 
 function About() {
   const { width } = useWindowDimensions();
 
-  const listCategories = () => {
-    return skills.map((skill) => {
-      return <h5>{skill.category}</h5>;
-    });
-  };
+  // const listCategories = () => {
+  //   return skills.map((skill) => {
+  //     return <h5>{skill.category}</h5>;
+  //   });
+  // };
 
   return (
     <>
