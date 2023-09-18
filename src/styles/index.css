@@ -64,6 +64,11 @@ p {
   padding: 180px 70px;
 }
 
+.textbox-leftaligned {
+  /* border: 1px solid black; */
+  padding: 180px 70px;
+}
+
 .headerbox {
   display: flex;
   justify-content: center;
