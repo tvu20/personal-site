@@ -73,6 +73,8 @@ function About() {
         <p>
           <span>Algorithms and Data Structures</span>,{" "}
           <span>Introduction to Programming Systems</span>,{" "}
+          <span>Introduction to Machine Learning</span>,{" "}
+          <span>Computer Graphics</span>,{" "}
           <span>Reasoning about Computation</span>,{" "}
           <span>Advanced Programming Techniques</span>,{" "}
           <span>Economics and Computing</span>,{" "}
@@ -102,9 +104,9 @@ function About() {
             <p>
               Worked with{" "}
               <b>
-                Typescript, Kubernetes, dynamic plugin APIs, i18next, Jest and
-                Enzyme testing suites, and programmatic API documentation
-                generation.
+                React Typescript, Kubernetes, dynamic plugin APIs, i18next, Jest
+                and Enzyme, Cypress integration testing, and programmatic API
+                documentation generation.
               </b>
             </p>
           </li>
@@ -130,8 +132,10 @@ function About() {
           <li>
             <p>
               Collaborated extensively with the rest of the team and practiced
-              pair programming with various members, alongside attending daily
-              scrums, sprint planning and backlog estimation
+              pair programming with various members, alongside{" "}
+              <b>
+                attending daily scrums, sprint planning and backlog estimation
+              </b>
             </p>
           </li>
         </ul>
@@ -232,6 +236,12 @@ function About() {
             <p>
               Weekly <b>maintenance, documentation, and debugging of code</b>{" "}
               with Git/Github version control
+            </p>
+          </li>
+          <li>
+            <p>
+              • Contributed to product design, brainstorming, and user
+              interviews in <b>fast paced startup environment</b>
             </p>
           </li>
           <li>
