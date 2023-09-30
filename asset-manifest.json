@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67b93719.css",
-    "main.js": "/static/js/main.b3e80d32.js",
+    "main.js": "/static/js/main.bbf67fd3.js",
     "static/media/winterfest-1.png": "/static/media/winterfest-1.ee2b88e9e77e5219a531.png",
     "static/media/winterfest-banner.png": "/static/media/winterfest-banner.da752d35ea81e96cfef3.png",
     "static/media/autumn-3.png": "/static/media/autumn-3.e06be8afa88c3f542e94.png",
@@ -80,10 +80,10 @@
     "static/media/code-banner.jpeg": "/static/media/code-banner.8e37604cf4644fcb6963.jpeg",
     "index.html": "/index.html",
     "main.67b93719.css.map": "/static/css/main.67b93719.css.map",
-    "main.b3e80d32.js.map": "/static/js/main.b3e80d32.js.map"
+    "main.bbf67fd3.js.map": "/static/js/main.bbf67fd3.js.map"
   },
   "entrypoints": [
     "static/css/main.67b93719.css",
-    "static/js/main.b3e80d32.js"
+    "static/js/main.bbf67fd3.js"
   ]
 }
