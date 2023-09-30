@@ -8,7 +8,7 @@
 }
 
 .detail__column h3 {
-  color: #5a8c9c;
+  color: var(--linkblue);
 }
 
 .detail__column p,

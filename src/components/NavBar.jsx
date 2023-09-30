@@ -102,23 +102,23 @@ function NavBar(props) {
   return (
     <>
       {width > 600 ? (
-        <div
+        <nav
           className={`navbar__background${
             pathname === "/" && altHeader ? "--alt" : ""
           }`}
         >
           <div className="navbar__centered">{createLinks()}</div>
-        </div>
+        </nav>
       ) : (
         <>
           {fullScreenMobileMenu()}
-          <div
+          <nav
             className={`navbar-mobile navbar__background${
               pathname === "/" && altHeader ? "--alt" : ""
             }`}
           >
             {mobileMenu()}
-          </div>
+          </nav>
         </>
       )}
     </>

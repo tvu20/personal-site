@@ -46,7 +46,7 @@
 }
 
 .navbar__background--alt a {
-  color: #e6e6e6;
+  color: var(--offwhite);
 }
 
 .navbar__background a {
@@ -59,7 +59,7 @@
 }
 
 .navbar__background a.active {
-  color: #5a8c9c;
+  color: var(--linkblue);
   font-weight: 800;
 }
 

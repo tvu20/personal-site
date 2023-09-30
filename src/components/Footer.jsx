@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       {width > 600 ? (
-        <div className="footer__container">
+        <footer className="footer__container">
           <>
             <h4>designed and created by Giao Vu Dinh</h4>
             <div className="footer__links">
@@ -41,9 +41,9 @@ function Footer() {
               </a>
             </div>
           </>
-        </div>
+        </footer>
       ) : (
-        <div className="footer-mobile__container">
+        <footer className="footer-mobile__container">
           <h4>designed and created by Giao Vu Dinh</h4>
           <br />
           <p>contact</p>
@@ -84,7 +84,7 @@ function Footer() {
               CV
             </a>
           </p>
-        </div>
+        </footer>
       )}
     </>
   );

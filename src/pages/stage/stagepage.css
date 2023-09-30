@@ -16,7 +16,7 @@
 }
 
 .stage__column h3 {
-  color: #5a8c9c;
+  color: var(--linkblue);
 }
 
 .stage__column p,
@@ -55,6 +55,6 @@
   }
   .stage__column h3 {
     margin-bottom: 20px;
-    color: #5a8c9c;
+    color: var(--linkblue);
   }
 }

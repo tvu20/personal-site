@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: gray; */
+  --linkblue: #5a8c9c;
+  --offwhite: #f5f5f5;
 }
 
 code {
@@ -95,7 +96,8 @@ p {
 }
 
 a {
-  color: #5a8c9c;
+  color: var(--linkblue);
+  font-weight: 500;
   text-underline-offset: 0.25em;
   /* text-transform: none;
   padding: 0; */
