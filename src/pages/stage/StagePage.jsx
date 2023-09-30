@@ -90,6 +90,11 @@ function Stage() {
           <ul>
             <li>
               <p>
+                <b>Something Rotten</b> <i>(Princeton, 2024)</i> - Bea Bottom
+              </p>
+            </li>
+            <li>
+              <p>
                 <b>Cabaret</b> <i>(Princeton, 2023)</i> - Fraulein Schneider
               </p>
             </li>
@@ -148,7 +153,6 @@ function Stage() {
               </p>
             </li>
           </ul>
-          {/* <img src={require("../../images/music.jpg")} alt="singing" /> */}
         </div>
 
         {width >= 750 && (
