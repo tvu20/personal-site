@@ -35,7 +35,7 @@ export const items = [
     short:
       "A website for searching and reviewing spots on campus, whether it be for studying, partying, rehearsing, or just hanging out. ",
     description:
-      'Final project for COS 333: Advanced Programing Techniques.<br><br>Part of <a href="https://tigerapps.org/" target="_blank" rel="noopener noreferrer">TigerApps</a>, a collection of student-developed apps designed to improve the academic and campus experience for Princeton students.  <br><br>A website for searching and reviewing spots on campus, whether it be for studying, partying, rehearsing, or just hanging out. <br><br>View the project <a href="https://tvu20.github.io/war-and-peace/" target="_blank" rel="noopener noreferrer">here.</a>',
+      'Final project for COS 333: Advanced Programing Techniques.<br><br>Part of <a href="https://tigerapps.org/" target="_blank" rel="noopener noreferrer">TigerApps</a>, a collection of student-developed apps designed to improve the academic and campus experience for Princeton students.  <br><br>A website for searching and reviewing spots on campus, whether it be for studying, partying, rehearsing, or just hanging out. <br><br>View the project <a href="https://spacetiger.tigerapps.org/" target="_blank" rel="noopener noreferrer">here.</a>',
     images: [
       require("../../images/code/spacetiger-1.png"),
       require("../../images/code/spacetiger-2.png"),
