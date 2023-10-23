@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67b93719.css",
-    "main.js": "/static/js/main.bbf67fd3.js",
+    "main.js": "/static/js/main.817eb919.js",
     "static/media/winterfest-1.png": "/static/media/winterfest-1.ee2b88e9e77e5219a531.png",
     "static/media/winterfest-banner.png": "/static/media/winterfest-banner.da752d35ea81e96cfef3.png",
     "static/media/autumn-3.png": "/static/media/autumn-3.e06be8afa88c3f542e94.png",
@@ -15,6 +15,7 @@
     "static/media/sweeney-1.png": "/static/media/sweeney-1.b1229dbb28a048d1ab74.png",
     "static/media/sweeney-banner.png": "/static/media/sweeney-banner.b1229dbb28a048d1ab74.png",
     "static/media/autumn-2.png": "/static/media/autumn-2.cbefd3a39a1fc78983c8.png",
+    "static/media/music.jpg": "/static/media/music.d558ee5382a8cab68b61.jpg",
     "static/media/twelfth-banner.png": "/static/media/twelfth-banner.48594d3b0b537fa4fc5a.png",
     "static/media/caelynn-banner.png": "/static/media/caelynn-banner.dcc3278edccd10e5f931.png",
     "static/media/caelynn.png": "/static/media/caelynn.dcc3278edccd10e5f931.png",
@@ -76,14 +77,13 @@
     "static/media/theater.jpg": "/static/media/theater.a8fe49adcdef1a8c3859.jpg",
     "static/media/tolstoy-1.png": "/static/media/tolstoy-1.26dd1ae32e12a55df513.png",
     "static/media/stage-banner.jpeg": "/static/media/stage-banner.a1f92cb60a0b75e3e64d.jpeg",
-    "static/media/music.jpg": "/static/media/music.780331bcfea67d15ce2b.jpg",
     "static/media/code-banner.jpeg": "/static/media/code-banner.8e37604cf4644fcb6963.jpeg",
     "index.html": "/index.html",
     "main.67b93719.css.map": "/static/css/main.67b93719.css.map",
-    "main.bbf67fd3.js.map": "/static/js/main.bbf67fd3.js.map"
+    "main.817eb919.js.map": "/static/js/main.817eb919.js.map"
   },
   "entrypoints": [
     "static/css/main.67b93719.css",
-    "static/js/main.bbf67fd3.js"
+    "static/js/main.817eb919.js"
   ]
 }
