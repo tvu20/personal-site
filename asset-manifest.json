@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.67b93719.css",
-    "main.js": "/static/js/main.817eb919.js",
+    "main.js": "/static/js/main.d9341b02.js",
     "static/media/winterfest-1.png": "/static/media/winterfest-1.ee2b88e9e77e5219a531.png",
     "static/media/winterfest-banner.png": "/static/media/winterfest-banner.da752d35ea81e96cfef3.png",
     "static/media/autumn-3.png": "/static/media/autumn-3.e06be8afa88c3f542e94.png",
@@ -9,6 +9,8 @@
     "static/media/peoples-banner.png": "/static/media/peoples-banner.8c5cfd2c4548b141b87f.png",
     "static/media/peoples.png": "/static/media/peoples.8c5cfd2c4548b141b87f.png",
     "static/media/autumn-1.png": "/static/media/autumn-1.58b4a6f11d514c3b58cc.png",
+    "static/media/yaga2.png": "/static/media/yaga2.54a29082fc55ac87f54b.png",
+    "static/media/yaga1.png": "/static/media/yaga1.2f4258f3013f0c7d104e.png",
     "static/media/peoples-modern.png": "/static/media/peoples-modern.6f875a4e38c5a9f91a44.png",
     "static/media/twelfth-1.png": "/static/media/twelfth-1.b88f0898d728014003a5.png",
     "static/media/pfp.jpg": "/static/media/pfp.cf747ff358b42bd0d7b2.jpg",
@@ -38,6 +40,7 @@
     "static/media/unconference-3.png": "/static/media/unconference-3.254b0172b46d5f9d589b.png",
     "static/media/unconference-2.png": "/static/media/unconference-2.c4d3ceffb6bcbf9923ae.png",
     "static/media/sponsored-3.png": "/static/media/sponsored-3.165a8a93993614ef7a34.png",
+    "static/media/yaga4.jpeg": "/static/media/yaga4.014afb545490242cc202.jpeg",
     "static/media/spacetiger-5.png": "/static/media/spacetiger-5.3e9ee90305de6afdc9ed.png",
     "static/media/spacetiger-6.png": "/static/media/spacetiger-6.2375577c4951945c7b82.png",
     "static/media/sponsored-1.png": "/static/media/sponsored-1.81d7700ae1fc1cdee4f3.png",
@@ -80,10 +83,10 @@
     "static/media/code-banner.jpeg": "/static/media/code-banner.8e37604cf4644fcb6963.jpeg",
     "index.html": "/index.html",
     "main.67b93719.css.map": "/static/css/main.67b93719.css.map",
-    "main.817eb919.js.map": "/static/js/main.817eb919.js.map"
+    "main.d9341b02.js.map": "/static/js/main.d9341b02.js.map"
   },
   "entrypoints": [
     "static/css/main.67b93719.css",
-    "static/js/main.817eb919.js"
+    "static/js/main.d9341b02.js"
   ]
 }
