@@ -35,7 +35,7 @@ function Detail(props) {
         <FadeInSection>
           <h3 style={{ marginBottom: "20px" }}>{item?.title}</h3>
           <h4>
-            <b>{type === "code" ? "timeline" : "Date"}:</b> {item?.date}
+            <b>{type === "code" ? "timeline" : "date"}:</b> {item?.date}
           </h4>
           <h4>
             <b>{type === "code" ? "role" : "type"}:</b>{" "}

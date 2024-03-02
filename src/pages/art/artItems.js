@@ -1,5 +1,22 @@
 export const items = [
   {
+    id: "yaga",
+    bannerImg: require("../../images/art/yaga4.jpeg"),
+    title: "Yaga",
+    to: "/art/yaga",
+    date: "march 2024",
+    type: "poster",
+    software: "procreate",
+    purpose: "client work",
+    description:
+      'Poster design for "Yaga" by Kat McLaughlin \'25, produced by Theatre Intime.',
+    images: [
+      require("../../images/art/yaga2.png"),
+      require("../../images/art/yaga1.png"),
+      require("../../images/art/yaga4.jpeg"),
+    ],
+  },
+  {
     id: "moon-festival",
     bannerImg: require("../../images/art/moon-banner.jpg"),
     title: "moon festival",
