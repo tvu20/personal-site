@@ -100,13 +100,29 @@ function About() {
         </p>
         <br />
 
-        {/* <ul>
-          <li> */}
-        <p>
-          Full-stack software engineer on the Capital Risk Engineering team.
-        </p>
-        {/* </li>
-        </ul> */}
+        <ul>
+          <li>
+            <p>
+              Full-stack software engineer on the Capital Risk Engineering team
+              working on internal tools use to structure and price debt funding
+              deals, such as{" "}
+              <b>
+                improving the validation flow of Affirm’s models for optimizing
+                funding strategies
+              </b>
+            </p>
+          </li>
+          <li>
+            <p>
+              Building batch data pipelines to{" "}
+              <b>
+                improve the resiliency and accuracy of loan origination
+                processes
+              </b>{" "}
+              with their originating banks
+            </p>
+          </li>
+        </ul>
 
         <div className="about__textbox-spacer"></div>
 
