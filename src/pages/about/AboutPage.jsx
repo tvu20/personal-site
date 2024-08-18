@@ -29,21 +29,24 @@ function About() {
         <div className="about__column about__column--left about__intro">
           <FadeInSection>
             <h2>Giao Vu Dinh</h2>
-            <h4>Princeton, NJ</h4>
+            <h4>New York, NY</h4>
             <h4>
               <a
-                href="mailto:tgdinh@princeton.edu"
+                href="mailto:tvudinh20@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                tgdinh@princeton.edu
+                tvudinh20@gmail.com
               </a>
             </h4>
             <p>
-              I’m a senior at Princeton University, majoring in Computer Science
-              with a minor in Neuroscience. I’m interested in front-end and
-              full-stack web development, data visualization, and interactive
-              storytelling through different mediums.
+              Software engineer based in New York Metropolitan Area. Received a
+              Bachelor of Arts in Computer Science at Princeton University with
+              a minor in Neuroscience. <br />
+              <br />
+              Interested in front-end and full-stack web development, data
+              visualization, and interactive storytelling through different
+              mediums.
             </p>
           </FadeInSection>
           {/* <img src={require("../../images/music.jpg")} alt="singing" /> */}
@@ -65,8 +68,12 @@ function About() {
         </p>
         <br />
         <h5>Bachelor of Arts in Computer Science</h5>
-        <p>GPA: 3.94</p>
         <p>Minor: Neuroscience</p>
+        <br />
+        <p>GPA: 3.96</p>
+        <p>Honors: Summa Cum Laude</p>
+        <p>Societies: Phi Beta Kappa, Sigma Xi</p>
+
         <br />
 
         <h5>Relevant coursework:</h5>
@@ -83,6 +90,26 @@ function About() {
       </div>
       <div className="textbox-leftaligned about__textbox">
         <h3>Work Experience</h3>
+        <h4>Affirm</h4>
+        <p>New York, NY</p>
+
+        <br />
+        <h5>Software Engineer I</h5>
+        <p>
+          <i>July 2024 - Present</i>
+        </p>
+        <br />
+
+        {/* <ul>
+          <li> */}
+        <p>
+          Full-stack software engineer on the Capital Risk Engineering team.
+        </p>
+        {/* </li>
+        </ul> */}
+
+        <div className="about__textbox-spacer"></div>
+
         <h4>Red Hat</h4>
         <p>Hybrid - New York, NY</p>
 
@@ -147,7 +174,7 @@ function About() {
         <br />
         <h5>Head Intro Lab TA</h5>
         <p>
-          <i>January 2023 - Present</i>
+          <i>January 2023 - December 2023</i>
         </p>
         <br />
 
@@ -176,7 +203,7 @@ function About() {
 
         <h5>2xx Lab TA</h5>
         <p>
-          <i>January 2022 - December 2023</i>
+          <i>January 2022 - May 2024</i>
         </p>
         <br />
         <ul>
@@ -303,7 +330,7 @@ function About() {
         <h4 className="less-margin-bottom">Princeton University Wildcats</h4>
         <h5>Music Director</h5>
         <p>
-          <i>January 2022 - Present</i>
+          <i>January 2022 - December 2023</i>
         </p>
         <div className="mini-br" />
         <p>
@@ -316,7 +343,7 @@ function About() {
         <h4 className="less-margin-bottom">Theatre Intime</h4>
         <h5>Special Projects Director</h5>
         <p>
-          <i>July 2023 - Present</i>
+          <i>July 2023 - December 2023</i>
         </p>
         <div className="mini-br" />
         <p>
@@ -390,7 +417,10 @@ function About() {
         <p>Java • Python • JavaScript • Typescript • C • Node.js/Express</p>
         <br />
         <h4>Web Development</h4>
-        <p>React.js • Node.js • Express • Flask • SQL • D3</p>
+        <p>
+          React.js • Node.js • Express • Next.js • Flask • SQL • MongoDB •
+          Prisma • D3
+        </p>
         <br />
         <h4>Design</h4>
         <p>

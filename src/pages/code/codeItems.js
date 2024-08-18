@@ -1,5 +1,48 @@
 export const items = [
   {
+    id: "recipe-app",
+    bannerImg: require("../../images/code/recipe.png"),
+    title: "Recipe App",
+    to: "/code/recipe-app",
+    tagline: "My Recipe App",
+    short: "Personal recipe app.",
+    date: "may - june 2024",
+    role: "designer, programmer",
+    stack: "Next.js, Prisma, PostgreSQL",
+    purpose: "personal",
+    description:
+      'I created my own personal recipe app because I couldn\'t find any existing ones that were free and had all the functionality I needed. <br><br>Features include creating and editing your own recipes, making comments on other recipes, and searching/filtering for your next meal. <br><br>View the project <a href="https://recipe-app-tau-ruddy.vercel.app/" target="_blank" rel="noopener noreferrer">here.</a>',
+    images: [
+      require("../../images/code/recipe1.png"),
+      require("../../images/code/recipe2.png"),
+      require("../../images/code/recipe4.png"),
+      require("../../images/code/recipe3.png"),
+    ],
+  },
+  {
+    id: "fe-viz",
+    bannerImg: require("../../images/code/feviz.png"),
+    title: "Fire Emblem Visualizations",
+    to: "/code/fe-viz",
+    tagline: "Fire Emblem Visualizations",
+    short:
+      "Senior Thesis Independent Project for Spring 2024, in fulfillment of Princeton University's Bachelor of Arts in Computer Science.",
+    date: "september 2023 - april 2024",
+    role: "researcher, designer, programmer",
+    stack: "React.js, D3.js, Flask, Python, ktrain",
+    purpose: "school project",
+    description:
+      'Senior Thesis Independent Project for Spring 2024, in fulfillment of Princeton University\'s Bachelor of Arts in Computer Science.<br><br>A collection of visual essays and interactive data visualizations examining the intersection between technology, culture, storytelling, and video games through the lens of the Fire Emblem series.<br><br>View the project <a href="https://fireemblemviz.onrender.com/" target="_blank" rel="noopener noreferrer">here.</a><br>Read the written report <a href="https://drive.google.com/file/d/1rrZtRCRVQZJ9grFDnioefNDvUXXhA1Ay/view" target="_blank" rel="noopener noreferrer">here.</a>',
+    images: [
+      require("../../images/code/feviz1.png"),
+      require("../../images/code/feviz2.png"),
+      require("../../images/code/feviz3.png"),
+      require("../../images/code/feviz4.png"),
+      require("../../images/code/feviz5.png"),
+      require("../../images/code/feviz6.png"),
+    ],
+  },
+  {
     id: "iw-spring-2023",
     bannerImg: require("../../images/code/iw-banner.png"),
     title: "Music Generation Based on Self-Organization and Emergent Patterns",

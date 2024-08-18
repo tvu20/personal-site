@@ -1,5 +1,47 @@
 export const items = [
   {
+    id: "fe-pixels",
+    bannerImg: require("../../images/art/fe-pixels.png"),
+    title: "fire emblem: pixels",
+    to: "/art/fe-pixels",
+    date: "august 2024",
+    type: "illustration",
+    software: "pixaki, procreate",
+    purpose: "personal",
+    description:
+      "Pixel art illustrations of main characters from the Fire Emblem series in the style of sprites from the GBA games. ",
+    images: [require("../../images/art/fe-pixels.png")],
+  },
+  {
+    id: "yobanashi-deceive",
+    bannerImg: require("../../images/art/yobanashi.png"),
+    title: "Yobanashi Deceive",
+    to: "/art/yobanashi-deceive",
+    date: "august 2024",
+    type: "illustration",
+    software: "procreate",
+    purpose: "personal",
+    description:
+      "Fan illustration of 'Yobanashi Deceive' from the Kagerou Project.",
+    images: [require("../../images/art/yobanashi.png")],
+  },
+  {
+    id: "pippin",
+    bannerImg: require("../../images/art/pippin-1.png"),
+    title: "Pippin",
+    to: "/art/pippin",
+    date: "may 2024",
+    type: "poster",
+    software: "procreate",
+    purpose: "client work",
+    description:
+      'Poster design for "Pippin" by Solomon Bergquist \'24, produced by Theatre Intime.',
+    images: [
+      require("../../images/art/pippin-1.png"),
+      require("../../images/art/pippin-2.png"),
+    ],
+  },
+  {
     id: "yaga",
     bannerImg: require("../../images/art/yaga4.jpeg"),
     title: "Yaga",

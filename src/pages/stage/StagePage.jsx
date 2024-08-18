@@ -28,12 +28,12 @@ function Stage() {
 
             <p>
               <b>Music Director</b> for the <i>Princeton University Wildcats</i>
-              , 2021 - present
+              , 2021 - 2023
             </p>
 
             <p>
               <b>Weekly Performer</b> for the <i>Princeton Coffee Club</i>, 2023
-              - present
+              - 2024
             </p>
 
             <p className="stage__begin-list">
@@ -68,7 +68,12 @@ function Stage() {
 
             <p>
               <b>Singer</b> (Alto I/II) for the{" "}
-              <i>Princeton University Chamber Choir</i>, 2021 - present
+              <i>Princeton University Chamber Choir</i>, 2021 - 2024
+            </p>
+
+            <p>
+              <b>Singer</b> (Alto I/II) for the{" "}
+              <i>Princeton University Glee Club</i>, 2020 - 2024
             </p>
 
             <p>
